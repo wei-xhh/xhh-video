@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="379f7523-99c0-424e-9f0e-536499a7b8a9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven-3.6.3\repository" />
+        <option name="mavenHome" value="F:/maven-3.6.3/apache-maven-3.6.3" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+        <option name="userSettingsFile" value="F:\maven-3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zq5MCEZ3Mz0ohZthn7JPMelvmK" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/videos-api/src/main/resources/mapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xhh.mapper" />
+      <recent name="com.xhh.pojo.vo" />
+      <recent name="com.xhh.utils" />
+      <recent name="com.xhh.service" />
+      <recent name="com.xhh.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace-video\video-demo\video-back\videos-api\src\main\resources\mapper" />
+      <recent name="E:\workspace-video\video-demo\video-back\videos-common\src\main\java\com\xhh\utils" />
+      <recent name="E:\workspace-video\video-demo\video-back\videos-common\src\main\java\com\xhh\enums" />
+      <recent name="E:\workspace-video\video-demo\video-back\videos-common\src\main\java\org\n3r" />
+      <recent name="E:\workspace-video\video-demo\video-back\videos-common\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="FFmpegTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xhh.utils.FFmpegTest" />
+      <module name="videos-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xhh.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FetchVideoCover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xhh.utils.FetchVideoCover" />
+      <module name="videos-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xhh.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoMergeAudio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xhh.utils.VideoMergeAudio" />
+      <module name="videos-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xhh.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="videos-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xhh.interceptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xhh.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.FetchVideoCover" />
+        <item itemvalue="Application.VideoMergeAudio" />
+        <item itemvalue="Application.FFmpegTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="379f7523-99c0-424e-9f0e-536499a7b8a9" name="Default Changelist" comment="" />
+      <created>1585553733896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585553733896</updated>
+      <workItem from="1585553735659" duration="13120000" />
+      <workItem from="1585619697855" duration="22922000" />
+      <workItem from="1585730260533" duration="6017000" />
+      <workItem from="1585799807914" duration="18646000" />
+      <workItem from="1585880723005" duration="1276000" />
+      <workItem from="1585966210216" duration="19545000" />
+      <workItem from="1586054620842" duration="19748000" />
+      <workItem from="1586137408555" duration="7913000" />
+      <workItem from="1586223152457" duration="11795000" />
+      <workItem from="1586310858809" duration="4392000" />
+      <workItem from="1586413919350" duration="11101000" />
+      <workItem from="1586493513370" duration="13286000" />
+      <workItem from="1586571208951" duration="1384000" />
+      <workItem from="1586577575243" duration="11577000" />
+      <workItem from="1586661288353" duration="2094000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

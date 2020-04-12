@@ -1,0 +1,132 @@
+page {
+  font-size: 14px;
+  height: 100%;
+}
+
+.container {
+  margin-top: 2.8rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/*头像，id号,关注我*/
+.container-pub-follow {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-pub .face {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.container-pub .nickname {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container-pub {
+  align-self: center;
+}
+
+.container-follow {
+  align-self: center;
+}
+
+.followMe {
+  width: 120px;
+  height: 32px;
+  font-size: 12px;
+}
+
+/*粉丝，关注，获赞*/
+.container-asset {
+  display: flex;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.container-asset .item {
+  display: flex;
+  flex-direction: column;
+  width: 187rpx;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333;
+}
+
+.container-asset .right {
+  border-left: 1px solid teal;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: gainsboro;
+  margin-top: 1px;
+}
+
+/*作品，喜欢，关注*/
+.container-video {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-bottom: solid 1px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.video-info {
+  width: 100%;
+}
+
+.video-info-selected {
+  background-color: gainsboro;
+}
+
+.container-video-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.videoImage {
+  width: 250rpx;
+  height: 180px;
+}
+/*关注的人*/
+.container-for{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.container-nick{
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.container-nick .nickname{
+  font-weight: bold;
+  font-size: 14px;
+}
+.nick-img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.container-info{
+  display: flex;
+  margin-left: 40px;
+  align-self: center;
+}
+.container-info .info{
+  width: 150px;
+  height: 32px;
+  font-size: 12px;
+}

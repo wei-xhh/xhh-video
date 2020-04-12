@@ -1,0 +1,73 @@
+page {
+  height: 100%;
+  background-color: #141414;
+}
+/*整个容器*/
+.container-all{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/*上传和查询*/
+.container-top {
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  justify-content: space-between;
+}
+
+/*头像，喜欢，评论，分享*/
+.container-me {
+  position: absolute;
+  width: 80rpx;
+  right: 15rpx;
+  top: 350rpx;
+}
+/*关注我*/
+.face-flowMe{
+  width: 70rpx;
+  height: 120rpx;
+  position: relative;
+}
+.flowMe{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  left: 17rpx;
+  bottom: 22rpx;
+}
+.face {
+  width: 75rpx;
+  height: 75rpx;
+  /* margin: 20rpx; */
+  border-radius: 50%;
+}
+.size-me {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+/*评论*/
+.container-words {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 30rpx;
+  top: 850rpx;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+}
+.video-nickname{
+  height: 60rpx;
+}
+.video-desc{
+  height: 100rpx;
+}
+
+
+
+
+
+

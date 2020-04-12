@@ -1,0 +1,66 @@
+<view>
+	<block wx:if="{{notLogin}}">
+		<view class="notLogin-container">
+			<image src="/images/nav/my-on.png" class="notLogin"></image>
+			<view class="noLogin-text">您还没登录呢！</view>
+		</view>
+	</block>
+
+	<block wx:if="{{!notLogin}}">
+		<label class="tipLabel">选择视频：</label>
+		<view class="select-video">
+			<view class="up-alb">
+				<image src="/images/content/album.png" class="up-img" bindtap="uploadVideoUseB"></image>
+				<view class="up-text">相册</view>
+			</view>
+			<view class="ple-text">选择/拍摄视频吧</view>
+			<view class="up-cam">
+				<image src="/images/content/camera2.png" class="up-img" bindtap="uploadVideoUseB"></image>
+				<view class="up-text">相机</view>
+			</view>
+		</view>
+
+		<view>
+
+
+			<form bindsubmit='upload'>
+				<view>
+					<label class="tipLabel">选择bgm：</label>
+					<view>
+						<radio-group name="bgmId">
+							<block wx:for="{{bgmList}}" wx:key="bgm">
+								<view class="audio-radio">
+                  <view class="mAudio">
+                    <iaudio src="{{serverUrl}}{{item.path}}" songName="{{item.name}}" singer="{{item.author}}"></iaudio>
+                  </view>
+                  <view class="mRadio">
+                    <radio value="{{item.id}}"></radio>
+                  </view>
+								</view>
+							</block>
+						</radio-group>
+					</view>
+				</view>
+				<view>
+					<label class="tipLabel">视频描述：</label>
+					<view>
+						<input name="desc" class="inputText" placeholder="说点什么吧" />
+					</view>
+				</view>
+				<!--提交-->
+				<view>
+					<button class="submitBtn" type="primary" form-type='submit'>上传视频</button>
+				</view>
+
+				<view class="goBack-all">
+					<text class="goBack-tx">不满意？</text>
+					<button size="mini" type="warn" plain="true" class="goBack" form-type='reset'>重置</button>
+				</view>
+
+			</form>
+		</view>
+
+	</block>
+
+
+</view>

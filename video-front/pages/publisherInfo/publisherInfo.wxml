@@ -1,0 +1,65 @@
+<view>
+
+	<view class='container'>
+		<view class="container-pub-follow">
+			<view class="container-pub">
+				<image src="{{faceUrl}}" class="face"></image>
+				<view>id号：<text class='nickname'>{{nickname}}</text></view>
+			</view>
+			<view class="container-follow">
+				<block wx:if="{{!userFollowMe}}">
+					<button class="followMe" type="primary" plain="true" bindtap='followMe'>关注我</button>
+				</block>
+				<block wx:if="{{userFollowMe}}">
+					<button class="followMe" plain="true" bindtap='followMe'>取消关注</button>
+				</block>
+			</view>
+		</view>
+
+		<view class="container-asset">
+			<view class='item' bindtap='goAsset'>
+				<view><text>{{fansCounts}} </text>粉丝</view>
+			</view>
+			<view class='item right' bindtap='goAsset'>
+				<view><text>{{followCounts}} </text>关注</view>
+			</view>
+			<view class='item right' bindtap='goScore'>
+				<view><text>{{receiveLikeCounts}} </text>获赞</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+
+<view class="line"></view>
+
+<view class='container-video'>
+	<!-- 发布过的作品 -->
+	<view class='{{videoSelClass}} {{isSelectedWork}}' bindtap='doSelectWork'>作品</view>
+	<!-- 用户关注过人发表的视频 -->
+	<view class='{{videoSelClass}} {{isSelectedFollow}}' bindtap='doSelectFollow'>关注</view>
+</view>
+<view class='container-video-list'>
+
+	<view hidden='{{myWorkFalg}}'>
+		<block wx:for="{{myVideoList}}">
+			<image src='{{serverUrl}}{{item.coverPath}}' class='videoImage' mode="aspectFill" bindtap='showVideo' data-arrindex='{{index}}'></image>
+		</block>
+	</view>
+
+	<view hidden='{{myFollowFalg}}'>
+		<block wx:for="{{followList}}">
+			<view class="container-for">
+				<view class="container-nick">
+					<image src="{{serverUrl}}{{item.faceImage}}" data-arrindex='{{index}}' class="nick-img"></image>
+					<view>id号：<text class='nickname'>{{item.nickname}}</text></view>
+				</view>
+				<view class="container-info">
+					<button class="info" type="primary" plain="true" bindtap='toUserInfo' data-arrindex='{{index}}'>个人主页</button>
+				</view>
+			</view>
+
+		</block>
+	</view>
+
+</view>

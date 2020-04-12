@@ -1,0 +1,11 @@
+<view class="audio-container">
+  <view class="img">
+    <image src="/images/content/{{ico}}.png" class="ico" bindtap="display"></image>
+  </view>
+
+  <view class="words">
+    <view class="words-name">{{songName}}</view>
+    <view class="words-author">{{singer}}</view>
+  </view>
+
+</view>

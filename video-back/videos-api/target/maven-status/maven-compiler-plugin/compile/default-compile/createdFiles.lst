@@ -1,0 +1,4 @@
+com\xhh\controller\HelloController.class
+com\xhh\interceptor\MyInterceptor.class
+com\xhh\controller\VideoController.class
+com\xhh\Application.class

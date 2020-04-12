@@ -1,0 +1,34 @@
+
+.audio-container{
+  width: 80%;
+  height: 130rpx;
+  background-color:whitesmoke;
+  border: 1px solid gainsboro;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img{
+  width: 30%;
+  align-self: center;
+  margin-left: 20px;
+}
+.words{
+  width: 70%;
+  align-self: center;
+}
+.ico {
+  width: 75rpx;
+  height: 75rpx;
+  align-self: center;
+}
+.words-name{
+  font-size: 14px;
+  text-align: center;
+}
+.words-author{
+  font-size: 12px;
+  text-align: center;
+  color: teal
+}
